@@ -10,8 +10,7 @@ if (!('SERVER_ID' in process.env)) {
 }
 
 process.date = () => {
-    let d = new Date();
-    return `${d.getUTCFullYear()}-${d.getUTCMonth()+1}-${d.getDate()} ${d.getUTCHours()}:${d.getUTCSeconds()}`;
+    return new Date().toUTCString().replace(/^\w+, (\d+ \w+ \d+) (\d\d:\d\d:\d\d) GMT$/gi, '$1 $2');
 };
 
 client.on('messageDelete', (message) => {
