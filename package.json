@@ -1,0 +1,12 @@
+{
+  "name": "discordlogger",
+  "author": "zziger",
+  "repository": "https://github.com/zziger/DiscordLogger",
+  "version": "1.0.0",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  },
+  "scripts": {
+    "start": "node ."
+  }
+}
