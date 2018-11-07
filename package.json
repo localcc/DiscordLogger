@@ -4,7 +4,8 @@
   "repository": "https://github.com/zziger/DiscordLogger",
   "version": "1.0.1",
   "dependencies": {
-    "discord.js": "^11.4.2"
+    "discord.js": "^11.4.2",
+    "mongodb": "^3.1.8"
   },
   "scripts": {
     "start": "node ."
